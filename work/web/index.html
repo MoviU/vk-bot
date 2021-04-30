@@ -1,0 +1,47 @@
+<body>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+    <script>
+        var widgets = [];
+        var ctx = get_context("canvas",500,400);
+        for(var i =0; i<5; i++)
+            widgets.push(new Box(10,20,180,200))
+        //w.draw(ctx)
+        //var l = new Label("Текст и команда",10,20,16);
+        //l.draw(ctx)
+        moved = null
+        function inRect(x,y,xp,yp,w,h){
+            
+                if(xp<x && xp+w>x && yp<y && yp+h>y)
+                    return true;
+            return false
+        }
+        document.getElementById("canvas").onmousedown = function(ev){
+            for(var i=0; i<widgets.length;i++)
+                if( !moved && inRect(ev.clientX,ev.clientY,widgets[i].x,widgets[i].y,widgets[i].w,widgets[i].h)){
+                    moved = widgets[i]
+                    moved.offsetX = ev.clientX-moved.x
+                    moved.offsetY = ev.clientY-moved.y
+                }
+        }
+        document.getElementById("canvas").onmouseup = function(ev){
+            if(moved)
+                moved = null
+        }
+        document.getElementById("canvas").onmousemove = function(ev){ //&& inRect(ev.clientX,ev.clientY,moved.x,moved.y,moved.w,moved.h)
+            if(moved){
+                moved.x=ev.clientX-moved.offsetX
+                moved.y=ev.clientY-moved.offsetY
+                
+            }
+        }
+        function update(){
+            redraw(ctx)
+            for(var i=0; i<widgets.length;i++)
+            widgets[i].draw(ctx)
+            //window.requestAnimationFrame(update)
+        }
+        //window.requestAnimationFrame(update);
+        setInterval(update,100);
+    </script>
+</body>

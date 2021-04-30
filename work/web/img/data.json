@@ -1,0 +1,82 @@
+{
+
+    "signa": [{ 
+        "id": 1, 
+        "type": 1,
+        "img": "1.jpg",
+        "x":"560",
+        "y":"415",
+        "angle": "-30",
+        "font": "10506.ttf",
+        "font_size": "35",
+        "font_color": "#6E6E6E",
+		"cc_link": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B8%D0%B3%D0%BD%D0%B0_%D0%BE%D1%82_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0_%D0%B3%D0%B3.jpg"
+    },{ 
+        "id": 2, 
+        "type": 1,
+        "img": "2.jpg",
+        "x":"320",
+        "y":"378",
+        "angle": "5",
+        "font": "10506.ttf",
+        "font_size": "70",
+        "font_color": "#dbdbdb",
+		"cc_link": "http://imgur.com/a/MSOU3"
+    },{ 
+        "id": 3, 
+        "type": 1,
+        "img": "3.jpg",
+        "x":"574",
+        "y":"374",
+        "angle": "8",
+        "font": "10506.ttf",
+        "font_size": "70",
+        "font_color": "#6E6E6E",
+		"cc_link": "https://vk.com/im?sel=200330158"
+    },{ 
+        "id": 4, 
+        "type": 1,
+        "img": "4.jpg",
+        "x":"432",
+        "y":"710",
+        "angle": "-19",
+        "font": "10506.ttf",
+        "font_size": "70",
+        "font_color": "#6E6E6E",
+		"cc_link": "https://vk.com/im?sel=200330158"
+    },{ 
+        "id": 5, 
+        "type": 1,
+        "img": "5.jpg",
+        "x":"302",
+        "y":"784",
+        "angle": "40",
+        "font": "10506.ttf",
+        "font_size": "50",
+        "font_color": "#2b2424",
+		"cc_link": "https://vk.com/im?sel=200330158"
+    },{ 
+		"id": 6, 
+        "type": 2,
+        "img": "2/1.jpg",
+        "x":"380",
+        "y":"280",
+        "angle": "-40",
+        "font": "10506.ttf",
+        "font_size": "40",
+        "font_color": "#2b2424",
+		"cc_link": "https://vk.com/im?sel=210605650"
+    },{ 
+		"id": 7, 
+        "type": 2,
+        "img": "2/2.jpg",
+        "x":"212",
+        "y":"420",
+        "angle": "-7",
+        "font": "10506.ttf",
+        "font_size": "40",
+        "font_color": "#505050",
+		"cc_link": "https://vk.com/im?sel=210605650"
+    }
+    ]
+}

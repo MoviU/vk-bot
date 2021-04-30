@@ -1,0 +1,453 @@
+
+	.btnvk{
+        background: #4B77A6;
+        border-radius: 50px;
+        font-size: 16px;
+        line-height: 15px;
+        color:white;
+        padding:17px 80px;
+    }.btnvk-o{
+        background: transparent;
+        
+        font-size: 16px;
+        line-height: 15px;
+        
+        padding:17px 80px;
+		color: #4B77A6;
+		border: 2px solid #4B77A6;
+		box-sizing: border-box;
+		border-radius: 50px;
+    }
+    .btnvk:hover,.btnvk:active,.btnvk:focus{
+        color:white;
+    }
+        .adminmenu ul{
+        list-style-type:none;
+    }
+    .adminmenu li{
+        display: inline-block;
+    }
+    .adminmenu{
+        margin-bottom:20px;
+    }
+        
+        
+         @font-face {
+ font-family: "Gotham Pro";
+ src: url("/fonts/GothamPro.eot") format("eot"),
+        url("/fonts/GothamPro.ttf") format("ttf"),
+        url("/fonts/GothamPro.woff") format("woff");
+}
+        *{
+            font-family: 'Gotham Pro' ; 
+        }
+        .navbar-inverse.navbar-fixed-top{
+            background: #4B77A6;
+            border-bottom:#4B77A6;
+            height: 80px;
+        }
+
+        .navbar-inverse .navbar-brand{
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 50px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+        .collapse.navbar-collapse{
+            height:100% !important;
+        }
+        .navbar .container, .navbar-nav.nav, .navbar-nav.nav li, .navbar-nav.nav li a{
+            height:100%;
+            line-height:80px;;
+        }
+        .navbar-nav.nav li a{
+            font-size: 16px;
+            color: #FFFFFF;
+            display: inline;
+        }
+        .navbar-inverse .navbar-nav > .active > a{
+            background: #00000055;
+            border-radius: 50px;
+        }
+        
+        .regbtn{
+            background: #FFFFFF;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+border-radius: 30px;
+color: #4B77A6 !important;
+        }
+        .site-header{
+            background: linear-gradient(180deg, #4D7CAD 0%, #0A4583 100%);
+            color:white;
+            text-align:left;
+        }
+        .site-header h1{
+            font-weight: 900;
+            font-size: 42px;
+            line-height: 130%;
+            color:white;
+        }
+        .site-header p{ 
+            font-size: 16px;
+            line-height: 150%;
+            /* or 24px */
+            color: #FFFFFF;
+        }
+      .wrap{
+          margin-top: 80px;
+          background: #E5E5E5;
+      }
+      
+      .submenu{
+          height:80px;
+          background: #FFFFFF;
+      }
+      .submenu ul{
+          height:100%;
+      }
+      .submenu li a.active{
+          border-bottom: 2px solid #4B77A6;
+      } 
+      .submenu li a{ 
+            line-height: 80px;
+
+            height: 100%;
+            display: inline-block;
+      }
+        .submenu li{
+          height:100%;
+          display:block;
+          float:left;
+          padding: 0 25px;
+      }
+      .templatebar{
+          width:100%;
+          padding-bottom:100%;
+          position:relative;
+      }
+      .templatebar>.panel,.templatebar>button{
+          width:100%;
+          height:100%;
+          position:absolute;
+          background: #FFFFFF;
+          box-shadow: 0px 10px 30px rgba(75, 119, 166, 0.15);
+          border-radius: 8px;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 17px;
+      }
+      .templatebar>button{
+          background: #4B77A6;
+      }
+      .templatebar .title{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 17px;
+            color: #000000;
+      }
+      .btnabsolute{
+          position:absolute;
+          width:30px;
+          height:30px;
+          background: #FFFFFF;
+            box-shadow: 0px 5px 30px rgba(75, 119, 166, 0.2);
+            border-radius: 108px;
+            right:20px;
+            text-align: center;
+        padding: 0px;
+        border: 0px;
+       
+      }
+      .btnaddgroup{
+            background: #4B77A633;
+            border-radius: 50px;
+            font-size: 13px;
+            line-height: 12px;
+            color: #4B77A6;
+            padding:11px 10px;
+            font-weight: normal;
+      }
+      .templatebar .dropdown{
+          position:absolute;
+          top:10px;
+          width:100%;
+      }
+      .templatebar .panel-body{
+            display: flex;
+            flex-direction: column;
+            
+            height: 100%;
+            padding-bottom:30px;
+      }
+      .templatelist > div{
+          margin-bottom:20px;
+      }
+      .leftblock .fa{
+          font-size:17px;
+      }
+      .vkcolbox{
+            box-shadow: 0px 10px 30px rgba(75, 119, 166, 0.15);
+            background: linear-gradient(180deg, #4D7CAD 0%, #0A4583 100%);
+            border-radius: 8px;
+            margin-bottom:30px;
+            padding:30px;
+            color: #FFFFFF;
+      }
+      .vkcolbox .btn-white{
+            margin-top:39px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 14px;
+            color: #4B77A6;
+            padding:14px 20px;
+            border:0px;
+      }
+      .vkcolbox b{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 130%;
+            color: #FFFFFF;
+            
+      }
+      .leftblock .panel-body{
+          padding:23px 20px;
+      }
+      .leftblock .panel{
+            border: 2px solid #D1D9E0;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-size: 15px;
+            line-height: 14px;
+            color: #4B77A6;
+            
+      }
+      .navbar-nav.nav .dropdown-menu li,.navbar-nav.nav .dropdown-menu a{
+          color:black;
+          line-height: 130%;
+          padding:4px;
+          width:100%;
+      }
+     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+          background-color:transparent;
+      }
+      .wrap > .container {
+            padding: 90px 15px 20px;
+        }
+        .writebotbtn{
+            /* Light Blue 2 */
+            background: #EDF2F7;
+            border-radius: 50px;
+            padding:14px 20px;
+            font-size: 15px;
+            line-height: 14px;
+            /* Blue vk */
+            color: #4B77A6;
+            border:0px;
+            margin-top:15px;
+        }
+        
+        
+        /* ui widget */
+        
+        .toggle-button-cover
+        {
+            display: table-cell;
+            position: relative;
+            float:right;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        .button-cover
+{
+    height: auto;
+    margin: 6px;
+    background-color: #fff;
+    box-shadow: 0 0px 20px -1px #c5d6d6;
+    border-radius: 4px;
+    border-radius: 20px;
+    
+}
+
+.button-cover:before
+{
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+     .button
+{
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r, .button.r .layer
+{
+    border-radius: 100px;
+}   
+     .checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs
+{
+    z-index: 2;
+}
+
+.layer
+{
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+/* Button 1 */
+#button-1 .knobs:before
+{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15px;
+    padding: 9px 4px;
+    background-color: #f44336;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before
+{
+    content: '';
+    left: 42px;
+    background-color: #03A9F4;
+}
+
+#button-1 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer
+{
+    transition: 0.3s ease all;
+}
+   
+   .modal.in{
+       background: rgba(237, 242, 247, 0.7);
+       
+   }
+   .modal .modal-header{
+       background: #F5F6F8;
+   }
+   .modal-header{
+       font-size: 20px;
+       font-weight: bold;
+       padding:25px 30px 30px 20px;
+        color: #24282D;
+        
+   }
+   #mediawin .modal-dialog {
+    width: 800px;
+   }
+   .modal-header button{
+       background: #FFFFFF;
+        border-radius: 8px;
+        width: 40px;
+        height: 40px;
+        /*margin-top:-15px;
+        margin-right:-20px;*/
+		margin-top:0px;
+        opacity:1;
+		float: right;
+
+		border: 0px;
+		margin-right: 3px;
+    }
+	.modal-header .close {
+		margin-top:0px;
+	}
+	
+	@media(max-width:400px){
+	 .collapse.navbar-collapse ,.navbar-nav.nav{
+			 height:auto !important;
+			 
+			 background: white none repeat scroll 0% 0%;
+		 }
+		 .collapse.navbar-collapse{
+			 
+		 }
+		 .collapse.navbar-collapse ul a{
+			 color:black;
+			 
+		 }
+		 .navbar-header{
+			 height: 80px;
+		 }
+		 
+		 .navbar-inverse .navbar-nav > .active > a {
+			 border-radius:0px;
+		 }
+		 .regbtn{
+			 box-shadow:none;
+		 }
+	
+	}
+    
+.navbar-nav.nav  .dropdown-menu a{
+    font-size:13px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    position: relative;
+    color: #444;
+    display: block;
+}
+.navbar-nav.nav  .dropdown-menu li.active a,.navbar-nav.nav  .dropdown-menu a:hover,.navbar-nav.nav  .dropdown-menu a:focus{
+
+    color: #1e88e5;
+    background-color: rgba(22,105,186,.075);
+
+}
+.templatebar .dropdown-menu li a {
+    font-size:13px;
+    height: 35px;
+    line-height: 35px;
+    color: #444;
+    display: block;
+}
+.templatebar .dropdown-menu {
+    right: 60px;
+    
+}
+.jconfirm .jconfirm-box  .jconfirm-buttons .btn-default{
+    padding-top: 9px;
+}

@@ -1,0 +1,18 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 268877280
+            [first_name] => Алексей
+            [last_name] => Криров
+            [is_closed] => 
+            [can_access_closed] => 1
+            [city] => Array
+                (
+                    [id] => 1
+                    [title] => Москва
+                )
+
+        )
+
+)

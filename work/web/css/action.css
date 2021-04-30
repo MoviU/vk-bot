@@ -1,0 +1,194 @@
+    .imgcontainer,.textcontainer{
+        float:left;
+        padding:15px;
+        padding-bottom:5px;
+    }
+    .textcontainer{
+        width:calc(100% - 84px);
+    }
+    .bgwhite{
+        background:white;
+        border-radius: 8px;
+        padding:30px;
+    }
+    .answerbox{
+        border: 1px solid rgba(75, 119, 166, 0.7);
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding:10px 20px;
+        height:auto;
+        color: #24282D;
+        font-size:15px;
+        position:relative;
+        min-height:85px;
+    }
+    .answerbox>div:first-of-type{
+        min-height:65px;
+        outline:none;
+        margin-bottom:30px;
+    }
+    .answerbox .editbox-control{
+        margin-top:10px;
+        position:absolute;
+        bottom:10px;
+    }
+    .answerbox .editbox-control button{
+        background: #EDF2F7;
+        border-radius: 8px;
+        border:0px;
+        height:30px;
+        width:30px;
+        text-align:center;
+    }
+    .addanswer{
+        background: #FFFFFF;
+        border: 1px solid #D1D9E0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding:18px 15px;
+        width:100%;
+        color: #24282D99;
+        text-align:left;
+    }
+    .float-right{
+        float:right;
+    }
+    #speed-button{
+        background: transparent;
+        border: 0px;
+        min-width: 320px;
+        color: #4B77A6;
+        outline: none;
+
+    }
+    a,a:hover,a:focus{
+        color: #4B77A6;
+    }
+    .t16{
+        font-size: 16px;
+        line-height: 15px;
+    }
+    
+    .btnvkorange{
+        border: 2px solid #F64747;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background:transparent;
+        font-size: 16px;
+        line-height: 15px;
+        color:white;
+        padding:13px 20px;;
+    }
+    
+    .btnvkwhite{
+        background: #FFFFFF;
+        border-radius: 50px;
+        
+        font-size: 16px;
+        line-height: 15px;
+        color: #4B77A6;
+        padding-top:17px;
+        padding-bottom:17px;
+        border:0px;
+        margin-top:30px;
+    }
+    .col-lg-4>.btnvkwhite{
+        padding-top:4px;
+        padding-bottom:4px;
+        margin-left:4px;
+        margin-right:4px;
+        
+    }
+    .btnvk-checker:first-of-type{
+        border-radius: 8px 0px 0px 8px;
+    }
+    .btnvk-checker:last-of-type{
+        border-radius: 0px 8px 8px 0px;
+    }
+    .btnvk-checker.active{
+        background: #4B77A6;
+        /* Blue vk */
+        border: 1px solid #4B77A6;
+        box-sizing: border-box;
+        
+        color:white;
+    }
+    .btnvk-checker{
+        background: transparent;
+        /* Blue vk */
+        border: 1px solid #4B77A6;
+        box-sizing: border-box;
+        
+        padding-top:14px ;
+        padding-bottom:14px ;
+        width:150px;
+    }
+    .modal .alert{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .modal .alert .uppertext{
+        font-weight: bold;
+        text-transform:uppercase;
+    }
+	
+	.vk-text{
+		color: #4B77A6;
+	}
+	.modal-button{
+		width:100%;
+		margin-top:15px;
+		margin-bottom:7px;
+		background: #DFE6ED;
+		border-radius: 8px;
+		padding-top:18px;
+		padding-bottom:18px;
+		text-align:center;
+	}
+	.modal-button-white{
+		width:100%;
+		margin-top:15px;
+		margin-bottom:7px;
+		background: #FFFFFF;
+		border: 1px solid #DFE6ED;
+		box-sizing: border-box;
+		border-radius: 8px;
+		padding-top:18px;
+		padding-bottom:18px;
+	}
+	#mediawin .modal-body{
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	#mediawin .wformatbtn span{
+		color:grey;
+		display:block;
+	}
+	#mediawin .wformatbtn:hover,#mediawin .wformatbtn.active{
+		background: #F5F6F8;
+	}
+	#mediawin .wformatbtn{
+		margin-left:-15px;
+		margin-right:-15px;
+		color: #24282D;
+		font-weight:600;
+		padding:8px 14px;
+		border-bottom:1px solid rgba(36, 40, 45, 0.05);
+		cursor:pointer;
+	}
+	#mediawin .col-md-4{
+		background: #EDF2F7;
+	}
+	#mediawin .col-md-4 .fa{
+		font-size:30px;
+		color:#4B77A6;
+		display: block;
+		width: 30px;
+		float: left;
+		margin: 5px;
+	}
+	#mediawin .modal-header p,#condiwin .modal-header p{
+		font-size:13px;
+		color:grey;
+	}
